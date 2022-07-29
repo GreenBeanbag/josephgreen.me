@@ -1,0 +1,360 @@
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+}
+
+p {
+  padding: 1% 2%;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #BDBDBD;
+  font-weight: 100;
+  margin: auto 0;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Landing */
+.navbar {
+  padding: 2% 3%;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  font-weight: 100;
+}
+
+.navbar-brand:hover {
+  color: #8EA8BD;
+}
+
+.nav-item {
+  padding: 3% 3%;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-weight: 100;
+  text-shadow: 1px 1.5px 2px #5A3921;
+}
+
+.nav-link:hover {
+  color: #8EA8BD;
+}
+
+.navbar-toggler {
+  height: 120px;
+  width: 120px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  border-radius: 100%;
+  padding: -50px;
+}
+
+.navbar-toggler-icon {
+  height: 120px;
+  width: 120px;
+}
+
+.landing-text {
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: #5A3921;
+  font-size: 4rem;
+  text-shadow: 1.5px 1.5px 8px #FFFFFF;
+  padding: 38% 25% 50%;
+  text-align: left;
+}
+
+/* Intro */
+.avatar-img {
+  margin: -15% 8% 2%;
+  width: 85%;
+}
+
+.intro {
+  text-align: left;
+  color: #764A2B;
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 0 2%;
+}
+
+.intro_text_1 {
+  padding-top: 2%;
+}
+
+.intro-pics {
+  width: 95%;
+}
+
+.pics-right {
+  padding: 1% 0.8% 5%;
+  margin-bottom: 5%;
+}
+
+.pics-left {
+  padding: 1% 0.8% 5%;
+}
+
+/* Experience */
+.experience-logo {
+  margin-top: -2%;
+}
+
+.experience-title {
+  width: 40%;
+}
+
+.experience {
+  margin: 0 auto;
+}
+
+.experience-text {
+  color: #764A2B;
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding:0 5%;
+}
+
+.artos {
+  width: 90%;
+  border-radius: 5%;
+  margin: 6% 0;
+}
+
+.fasp-logo {
+  width: 80%;
+  border-radius: 5%;
+  margin: 6% 0;
+}
+
+.cp-logo {
+  width: 77%;
+  border-radius: 5%;
+  margin: 6% 0;
+}
+
+.experience-button {
+  width: 80%;
+  height: 20%;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.3rem;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  margin-bottom: 10%;
+}
+
+.experience-button:hover {
+  color: #80A5BA;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.resume-div {
+  text-align: center;
+  padding: 5% 0 10%;
+}
+
+.resume-button {
+  width: 35%;
+  border-radius:20px;
+transition-duration: 0.4s;
+}
+
+.resume-button:hover {
+  background-color: #FDECD7;
+  color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Education */
+.education-logo {
+  margin-top: -2%;
+}
+
+.education-title {
+  width: 40%;
+}
+
+.frames {
+  padding-bottom: 10%;
+  width: 75%;
+}
+
+.parent-image {
+  position: relative;
+}
+
+.parent-image-responsive {
+  width: 75%;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+.child-image {
+position:absolute;
+top: 12.5%;
+right: 36%;
+width: 180px;
+height:70px;
+border-radius: 10px;
+background-color: #E6E6E6;
+
+}
+
+.child-image:hover {
+  background-color: #D7EEFC;
+
+}
+
+/* Interests */
+.interests-title {
+  width: 95%;
+  margin-top: -4%;
+  padding-left: 4%;
+}
+
+.anya {
+  width: 70%;
+  padding: -10% 0 -10% -8%;
+  margin: 3% 0 10% 7%;
+  border-radius: 10px;
+}
+
+.anya:hover {
+  color: #8EA8BD;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.interests-pics {
+  width: 65%;
+  padding: -10% 0 -10% -8%;
+  margin: 5% 8% 10% 7%;
+  border-radius: 10px;
+}
+
+.interests-pics:hover {
+  color: #8EA8BD;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Contact Form */
+
+
+.align-center {
+   text-align: center;
+}
+
+
+/* Contact */
+.contact {
+  padding: 5%;
+}
+
+.profile {
+  width: 80%;
+  border-radius: 10%;
+  margin: 25% 0 5%;
+}
+
+.contact-heading {
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: #5A3921;
+  font-size: 4rem;
+  margin-top: 17%;
+  padding-bottom: 5%;
+
+}
+
+.form-control {
+  margin: 3% 0;
+}
+
+
+.send {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #5A3921;
+  width: 75%;
+margin-top: 8%;
+
+}
+
+
+/* Footer */
+.social-div {
+  text-align: center;
+}
+
+.social-icon {
+  width: 5%;
+  margin: 3% 5%;
+}
+
+.social-icon:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 20px;
+}
+
+
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Responsive small images */
+
+@media only screen and (max-width: 768px) {
+  .img_responsive_fixed_title {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img_responsive_fixed_large {
+    width: 500px;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .img_responsive_fixed_small {
+    width: 80px;
+    height: auto;
+  }
+}
