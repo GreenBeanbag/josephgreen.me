@@ -38,7 +38,7 @@ button:hover {
 
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #FFFFFF;
   font-weight: 100;
 }
@@ -48,12 +48,12 @@ button:hover {
 }
 
 .nav-item {
-  padding: 3% 3%;
+  padding: 3% 2%;
 }
 
 .nav-link {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #FFFFFF;
   font-weight: 100;
   text-shadow: 1px 1.5px 2px #5A3921;
@@ -94,20 +94,39 @@ button:hover {
 }
 
 .intro {
-  text-align: left;
+  text-align: center;
   color: #764A2B;
   font-size: 1.8rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  padding: 0 2%;
+  padding: 0 2% 2%;
 }
 
 .intro_text_1 {
   padding-top: 2%;
 }
 
-.intro-pics {
-  width: 95%;
+.intro-pics-1 {
+  width: 85%;
+}
+
+.intro-pics-2 {
+  width: 55%;
+}
+
+.intro-pics-top {
+  display: flex;
+   align-items: center;
+   justify-content: center;
+  padding: 1% 5%;
+  margin-bottom: 2%;
+}
+.intro-pics-bottom {
+
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1% 2%;
 }
 
 .pics-right {
@@ -168,7 +187,7 @@ button:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   border-radius: 20px;
   transition-duration: 0.4s;
   margin-bottom: 10%;
@@ -346,15 +365,21 @@ margin-top: 8%;
 
 @media only screen and (max-width: 768px) {
   .img_responsive_fixed_large {
-    width: 500px;
+    width: 60%;
     height: auto;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .img_responsive_fixed_social {
+    width: 10%;
+    height: auto;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .img_responsive_fixed_small {
-    width: 80px;
+    width: 80%;
     height: auto;
   }
 }
