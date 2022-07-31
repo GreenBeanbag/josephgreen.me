@@ -106,36 +106,16 @@ button:hover {
   padding-top: 2%;
 }
 
-.intro-pics-1 {
+.intro-pics {
   width: 85%;
 }
 
-.intro-pics-2 {
-  width: 55%;
-}
-
-.intro-pics-top {
+.intro-pics-divs {
   display: flex;
    align-items: center;
    justify-content: center;
   padding: 1% 5%;
   margin-bottom: 2%;
-}
-.intro-pics-bottom {
-
-  display: flex;
-   align-items: center;
-   justify-content: center;
-   padding: 1% 2%;
-}
-
-.pics-right {
-  padding: 1% 0.8% 5%;
-  margin-bottom: 5%;
-}
-
-.pics-left {
-  padding: 1% 0.8% 5%;
 }
 
 /* Experience */
