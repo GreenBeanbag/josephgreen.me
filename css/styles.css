@@ -64,8 +64,8 @@ button:hover {
 }
 
 .navbar-toggler {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
   display: flex;
     align-items: center;
     justify-content: center;
@@ -74,14 +74,14 @@ button:hover {
 }
 
 .navbar-toggler-icon {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
 }
 
 .landing-text {
   font-family: 'Bilbo Swash Caps', cursive;
   color: #5A3921;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-shadow: 1.5px 1.5px 8px #FFFFFF;
   padding: 38% 25% 50%;
   text-align: left;
@@ -241,11 +241,12 @@ transition-duration: 0.4s;
 }
 
 .child-image {
-position:absolute;
-top: 12.5%;
-right: 36%;
-width: 180px;
-height:70px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 15% auto;
+width: 35%;
+height:9%;
 border-radius: 10px;
 background-color: #E6E6E6;
 
